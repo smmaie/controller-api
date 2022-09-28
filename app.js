@@ -7,3 +7,5 @@ window.addEventListener("gamepadconnected", event => {
     console.log("Gamepad disconnected ");
     console.log(event.gamepad);
   });   
+
+  console.log("yo")
