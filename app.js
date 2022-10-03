@@ -9,3 +9,7 @@ window.addEventListener("gamepadconnected", event => {
   });   
 
   console.log("yo")
+
+  buttons: [
+    'DPad-Left','DPad-Right'
+  ];
