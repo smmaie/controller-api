@@ -9,3 +9,4 @@ window.addEventListener("gamepadconnected", event => {
   });   
 
   console.log("yo")
+  
