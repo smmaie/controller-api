@@ -8,5 +8,11 @@ window.addEventListener("gamepadconnected", event => {
     console.log(event.gamepad);
   });   
 
-  console.log("yo")
+function update (){
+  const gamepads = navigator.getGamepads();
+  console.log(gamepads)
+  window.requestAnimationFrame(update)
+}
+
+  window.requestAnimationFrame(update)
   
